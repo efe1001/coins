@@ -1,0 +1,56 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+/* Advanced table styling */
+.advanced-table {
+    width: 100%;
+    max-width: 1200px; /* Adjusted width for 8 columns */
+    margin: auto;
+    border-collapse: collapse;
+    background-color: gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.advanced-table thead th {
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    
+}
+
+.advanced-table th, .advanced-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.advanced-table tbody tr:nth-child(even) {
+    background-color: #c38b8b;
+}
+
+.advanced-table tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.advanced-table tbody td {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+.advanced-table tbody td:first-child {
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
