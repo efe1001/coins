@@ -1,0 +1,21 @@
+.telee{
+    font-size: 30px;
+}
+
+.newsimg{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.newsim{
+    display: flex;
+    justify-content: center;
+}
+
+.pimg{
+    width: 40px;
+    border-radius: 30px;
+}
