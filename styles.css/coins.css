@@ -1,0 +1,136 @@
+*{
+  
+}
+
+.adscoinn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 10px;
+}
+
+.adscoin{
+    width: 400px;
+    height: 100px;
+}
+
+.adscoin1{
+    width: 800px;
+    height: 100px;
+}
+
+.adscoin3{display: flex;
+    width: 1200px;
+    justify-content: center;
+}
+.adscoin33{
+    display: flex;
+    justify-content: center;
+}
+
+.infobox{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 100px;
+    
+}
+
+.infobox1{
+    background-color: rgb(37, 37, 42);
+    border-radius: 10px;
+    flex-grow: 1;
+    
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+.infobox2{
+    
+    margin: 10px;
+    width: 50px;
+    border-radius: 10px;
+    
+}
+
+#infoxbox{
+   
+}
+
+.tele{
+    text-align: center;
+}
+
+.coinf1{
+    text-align: center;
+}
+
+.btn51{
+    display: flex;
+    color: white;
+    background-color: rgb(168, 129, 129);
+    width: 60px;
+    margin: 5px;
+    height: 40px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.btn52{
+    display: flex;
+    color: white;
+    background-color: blue;
+    width: 60px;
+   margin: 5px;
+   height: 40px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.btn53{
+    display: flex;
+    color: white;
+    background-color: rgb(168, 129, 129);
+    width: 60px;
+    margin: 5px;
+    height: 40px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.btnn{
+    display: flex;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.adside{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 42);
+    width: 300px;
+    border-radius: 10px;
+    line-height: 50px;
+    
+    
+}
+
+adsss{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advanced-table1{
+    background-color:   rgb(37, 37, 42);
+}
