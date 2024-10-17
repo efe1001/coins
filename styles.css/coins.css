@@ -134,3 +134,87 @@ adsss{
 .advanced-table1{
     background-color:   rgb(37, 37, 42);
 }
+.coinlogo{
+    border-radius: 2100px;
+    padding: 10px;
+}
+
+.coinl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 992px) {
+    .h2 {
+        flex: 0 0 20%; /* Larger slide for tablets take note */
+    }
+
+    .adscoin{
+        width: 300px;
+        height: 70px;
+    }
+
+    .adscoin1{
+        width: 300px;
+        height: 70px;
+    }
+    
+    .adscoin3{display: flex;
+        width: 400px;
+        justify-content: center;
+    }
+    .infobox{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        width: 500px;
+        margin-left: 100px;
+        
+    }
+
+    /* just for andriod phone*/
+@media  (max-width: 760px) {
+    .h2 {
+        display: none;
+        text-align: center;
+        justify-content: center;
+     
+    }
+
+    
+    .adscoin{
+        width: 120px;
+        height: 50px;
+    }
+
+    .adscoin1{
+        width: 120px;
+        height: 50px;
+    }
+    
+    .adscoin3{display: flex;
+        width: 300px;
+        justify-content: center;
+    }
+
+    .infobox{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        width: 400px;
+        margin-left: 0px;
+        
+    }
+    .td a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .coinlogo{
+        border-radius: 2100px;
+        width: 200px;
+    }
