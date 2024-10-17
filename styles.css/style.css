@@ -571,6 +571,10 @@ input, button {
     
 }
 
+td a{
+    text-decoration: none;
+    
+}
 .advanced-table th, .advanced-table td {
     
     padding: 12px;
@@ -581,8 +585,7 @@ input, button {
 }
 
 .advanced-table tbody tr:hover {
-    background-color: #ddd;
-    cursor: pointer;
+
 }
 
 .advanced-table tbody td {
