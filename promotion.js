@@ -1,4 +1,4 @@
-const promotion = document.querySelector('.advanced-table1')
+const promotion = document.querySelector('.promotedform')
 fetch('./promotionp.html')
 .then(res=>res.text())
 .then(data=>{
