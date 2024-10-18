@@ -635,10 +635,18 @@ td a{
     border-radius: 4px;
     color: white;
     text-align: center;
-    height: 25px;
+    height: 30px;
     align-items: center;
     padding: 5px;
     font-family: var(--fontbg);
+}
+
+ .tboost{
+    color: blue;
+}
+
+.moon{
+    width: 20px;
 }
 .hardcap{
     font-size: 10px;
