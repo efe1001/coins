@@ -79,6 +79,12 @@
     font-family:var(--fontbg)
 }
 
+.coinf11{
+    font-family: var(--fontbg);
+    color: aqua;
+}
+
+
 .btn51{
     display: flex;
     color: white;
