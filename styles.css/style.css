@@ -4,10 +4,15 @@
    
 }
 
+:root{
+    --fontbg:Poppins, sans-serif;
+}
+
 .h2, .h22, .h222{
     color: gray;
     font-size: 14px;
     font-weight: bold;
+    font-family: var(--fontbg);
 }
 
 body{
@@ -43,6 +48,7 @@ body{
     display: flex;
     color: white;
    margin-left: 400px;
+   font-family: var(--fontbg);
 }
 .price1{
     color:#00aa72;
@@ -86,6 +92,7 @@ nav a{
     display: flex;
     align-items: center;
     color: #0e141f;
+    font-family: var(--fontbg);
 }
 
 nav a:hover{
@@ -115,6 +122,7 @@ nav ul{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    font-family: var(--fontbg);
 }
 
 .sidebarnew{
@@ -142,7 +150,7 @@ nav ul{
     display: flex;
     color: white;
     justify-content: center;
-
+font-family: var(--fontbg);
 }
 .menulist a:hover{
     background-color: none;
@@ -177,6 +185,7 @@ nav ul{
     color: #00aa72;
     padding: 10px;
     margin: 5px;
+    font-family: var(--fontbg);
 }
 
 .divcoin{
@@ -188,6 +197,7 @@ nav ul{
     position: absolute;
     top: 10px;
     left: 310px;
+    font-family: var(--fontbg);
     
 }
 .divcoin1{
@@ -199,7 +209,7 @@ nav ul{
     position: absolute;
     top: 10px;
     left: 410px;
-   
+   font-family: var(--fontbg);
 }
 
 .coin2{
@@ -229,6 +239,7 @@ nav ul{
     position: absolute;
     top: 10px;
     right: 100px;
+    font-family: var(--fontbg);
 }
 
 input, button {
@@ -253,6 +264,7 @@ input, button {
     position: absolute;
     top: 5px;
     font-size: 12px;
+    font-family: var(--fontbg);
 }
 
 #new-task-input::placeholder {
@@ -284,7 +296,7 @@ input, button {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-   
+   font-family: var(--fontbg);
 }
 
 .link{
@@ -329,7 +341,7 @@ input, button {
     font-size: 10px;
     text-align: center;
     position: relative;
-    
+    font-family: var(--fontbg);
 }
 
 .yourcoin{
@@ -391,6 +403,7 @@ input, button {
     color: white;
     width: 100%;
     justify-content: center;
+    font-family: var(--fontbg);
 }
 
 .sn1{
@@ -518,7 +531,7 @@ input, button {
     border-radius: 3px;
     box-shadow: white;
     text-decoration: none;
-    
+    font-family: var(--fontbg);
 }
 
 .ps1{
@@ -531,6 +544,7 @@ input, button {
     align-items: center;
     margin-left: 500px;
     text-decoration: none;
+    font-family: var(--fontbg);
 }
 
 .ps1 a{
@@ -539,6 +553,10 @@ input, button {
 
 /* Advanced table styling */
 
+
+.promotedform{
+    padding: 20px;
+}
 .advanced-table1{
     border-radius: 10px;
     padding: 5px;
@@ -563,12 +581,13 @@ input, button {
 .advanced-table thead th {
     background-color: #0a2d21;
     color: rgb(145, 133, 167);
+    font-family: var(--fontbg);
     text-align: left;
     padding: 12px;
     border-radius: 10px;
     height: 5px;
     font-size: 13px;
-    font-family: Poppins, sans-serif;;
+    
     text-align: center;
     
 }
@@ -602,7 +621,7 @@ td a{
     text-align: left;
     font-size: 12px;
     color: rgb(108, 101, 134);
-    font-family: Poppins, sans-serif;;
+    font-family: var(--fontbg)
 }
 
 .advanced-table tbody td:first-child {
@@ -619,7 +638,7 @@ td a{
     height: 25px;
     align-items: center;
     padding: 5px;
-
+    font-family: var(--fontbg);
 }
 .hardcap{
     font-size: 10px;
@@ -641,7 +660,7 @@ td a{
     color: white;
     padding: 10px;
     text-align: center;
-   
+   font-family: var(--fontbg);
 }
 .sinfo{
     color: rgb(212, 184, 184);
@@ -651,11 +670,13 @@ td a{
     font-family: Poppins, sans-serif;;
     font-size: 15px;
     line-height: 20px;
+    font-family: var(--fontbg);
 }
 
 .jnews{
     text-align: center;
     color: white;
+    font-family: var(--fontbg);
 }
 
 *{
