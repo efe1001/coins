@@ -2,6 +2,10 @@
   
 }
 
+:root{
+    --fontbg: Poppins, sans-serif;
+}
+
 .adscoinn{
     display: flex;
     align-items: center;
@@ -61,10 +65,18 @@
 
 .tele{
     text-align: center;
+    color: white;
+    background-color: rgb(65, 43, 43);
+    border-radius: 50px;
+    font-family:var(--fontbg)
 }
 
 .coinf1{
     text-align: center;
+    color: aqua;
+    line-height: 25px;
+    font-size: 16px;
+    font-family:var(--fontbg)
 }
 
 .btn51{
@@ -150,6 +162,12 @@ adsss{
     .h2 {
         flex: 0 0 20%; /* Larger slide for tablets take note */
     }
+    .coinlogo{
+        border-radius: 2100px;
+        padding: 10px;
+        width: 700px;
+        height: 200px;
+    }
 
     .adscoin{
         width: 300px;
@@ -183,7 +201,12 @@ adsss{
         justify-content: center;
      
     }
-
+    .coinlogo{
+        border-radius: 0px;
+        padding: 10px;
+        width: 900px;
+        height: 100px;
+    }
     
     .adscoin{
         width: 120px;
