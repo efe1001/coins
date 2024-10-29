@@ -17,12 +17,32 @@
       <span class="ccc">
           <h4></h4>
           <div class="dd">
+        <a><img href="/newshere.html/cloud.html" class="c1" id="c1" src="/assets/newsimg/cloud.png"></a>  
+      </span>
+      <div class="car-details">
+    <a href="/newshere.html/cloud.html">  <h4 class="h33">Hong Kong’s ZA Bank begins sandbox pilot of crypto trading service </h4></a>
+      <br>
+      <div class="date-posted" data-date="2024-10-29T16:45">Posted: </div>
+    <!--  <h4 class="h44">43 minutes ago</h4>-->
+      <br>
+    
+      
+      </div>
+      </div>
+      </div>
+
+
+
+    <div class="carlist-1">
+      <span class="ccc">
+          <h4></h4>
+          <div class="dd">
         <a><img href="/newshere.html/crypto.html" class="c1" id="c1" src="/assets/newsimg/crypto.png"></a>  
       </span>
       <div class="car-details">
     <a href="/newshere.html/crypto.html">  <h4 class="h33">Three crypto coins to watch in Q4: SUI, Pulsemate AI, and TON  </h4></a>
       <br>
-      <h4 class="hh5">12:12am 25th oct 2024</h4>
+      <h4 class="hh5">9:11pm 26th oct 2024</h4>
     <!--  <h4 class="h44">43 minutes ago</h4>-->
       <br>
     
@@ -561,5 +581,29 @@
 
 </div>
 </div>
+<script>
+  // JavaScript function to calculate time since posted
+  function timeSince(date) {
+      const seconds = Math.floor((new Date() - new Date(date)) / 1000);
+      let interval = Math.floor(seconds / 31536000);
+
+      if (interval > 1) return interval + " years ago";
+      interval = Math.floor(seconds / 2592000);
+      if (interval > 1) return interval + " months ago";
+      interval = Math.floor(seconds / 86400);
+      if (interval > 1) return interval + " days ago";
+      interval = Math.floor(seconds / 3600);
+      if (interval > 1) return interval + " hours ago";
+      interval = Math.floor(seconds / 60);
+      if (interval > 1) return interval + " minutes ago";
+      return "Just now";
+  }
+
+  // Updating each date with formatted "time ago"
+  document.querySelectorAll(".date-posted").forEach(dateElement => {
+      const date = dateElement.getAttribute("data-date");
+      dateElement.textContent += timeSince(date);
+  });
+</script>
 </body>
 </html>
